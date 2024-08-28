@@ -43,14 +43,14 @@
 
     <!-- FORMULARIO -->
 
-    <form>
+    <form id="form">
       <div class="row">
         <div class="four columns">
           <!-- SELECT PARA SELECCCIONAR CREDITO / DEBITO -->
           <label for="creditDebitSelect">Crédito / Débito</label>
           <select class="u-full-width" id="creditDebitSelect" required>
-            <option value="Option 1">Crédito</option>
-            <option value="Option 2">Débito</option>
+            <option value="Credito">Crédito</option>
+            <option value="Debito">Débito</option>
           </select>
         </div>
         <div class="four columns">
@@ -69,7 +69,7 @@
       <textarea class="u-full-width" placeholder="Detalles" id="details"></textarea>
       <!-- INPUT PARA RESPALDO CORREO ELECTRONICO -->
       <label class="example-send-yourself-copy">
-        <input type="checkbox">
+        <input type="checkbox" id="sendEmail">
         <span class="label-body">Respaldo por correo electrónico</span>
       </label>
       <input class="button-primary" type="submit" value="Agregar">
